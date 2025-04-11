@@ -23,7 +23,7 @@ import {
     SiAngular,
     SiTerraform,
     SiLinux,
-    SiApachetomcat, SiTailwindcss, SiAnaconda,
+    SiApachetomcat, SiTailwindcss, SiAnaconda, SiApache,
 } from "react-icons/si";
 import {TbBrandGolang, TbBrandReactNative} from "react-icons/tb";
 
@@ -72,13 +72,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
+
         <Col xs={4} md={2} className="tech-icons">
             <SiLinux />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiApachetomcat />
         </Col>
-
+        <Col xs={4} md={2} className="tech-icons">
+            <SiApache />
+        </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiTerraform/>
         </Col>

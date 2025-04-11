@@ -5,7 +5,17 @@ import {
     SiPostman,
     SiSlack,
     SiVercel,
-    SiMacos, SiIntellijidea, SiChromecast, SiSplunk, SiFirefox, SiLinux, SiNotepadplusplus, SiVim, SiWebstorm, SiJira,
+    SiMacos,
+    SiIntellijidea,
+    SiChromecast,
+    SiSplunk,
+    SiFirefox,
+    SiLinux,
+    SiNotepadplusplus,
+    SiVim,
+    SiWebstorm,
+    SiJira,
+    SiAndroidstudio, SiExpo,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -25,6 +35,9 @@ function Toolstack() {
             <SiVim />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
+            <SiWebstorm />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
             <SiJira/>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -33,13 +46,17 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiExpo />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiAndroidstudio />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirefox />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWebstorm />
-      </Col>
+
     </Row>
   );
 }
