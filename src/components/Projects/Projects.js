@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath="https://raw.githubusercontent.com/XuchenSun/KFR/gh-pages/images/GameImageDesign.png"
               isBlog={false}
               title="Game Image Design Bases on GAN and CNN"
-              description="Applying GAN(Generative Adversarial Network) and CNN(convolutional neural network) to generate images of games."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="Applying GAN (Generative Adversarial Network) and CNN (convolutional neural network) to generate game images based on the user's input. The model was trained on the dataset of 10000 images of games and was able to generate images of games based on the user's input."
+              ghLink="https://github.com/XuchenSun/Game-Image-Design-Based-On-GAN-and-CNN"
+              demoLink="https://www.youtube.com/watch?v=PF16ie9bQdQ"
             />
           </Col>
 
